@@ -28,6 +28,18 @@
 .botao.secundario:hover {
   background: var(--cor-9);
 }
+
+.botao {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+
+@media (max-width: 600px) {
+  .botao {
+    font-size: 16px;
+    padding: 12px 16px;
+  }
+}
+
 .link {
   display: inline-block;
   color: var(--cor-p1);
@@ -47,13 +59,25 @@
   color: var(--cor-0);
 }
 
-@media (max-width: 600px) {
-  .botao {
-    font-size: 16px;
-    padding: 12px 16px;
-  }
+/* titulo internas - termos de uso */
+.titulo-bg {
+  background-color: var(--cor-11);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.botao {
-  background: linear-gradient(#ffb60d, #e59317);
+.titulo p {
+  margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
 }
