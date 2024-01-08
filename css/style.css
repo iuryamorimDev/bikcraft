@@ -21,12 +21,15 @@
 
 @import "./utilidades/componentes.css";
 
+/*bicicletas */
+
 @import "./bicicletas/bicicletas-lista.css";
 
 @import "./bicicletas/bicicletas.css";
 
-/* footer */
+@import "./bicicleta/bicicleta.css";
 
+/* footer */
 @import "./global/footer.css";
 
 /* termos */
